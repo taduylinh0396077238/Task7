@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+    <title>Aligning Form Contrls Problem</title>
+    <style type="text/css">
+        body{
+            font-family: Arial, Verdana, sans-serif; }
+    </style>
+</head>
+<body>
+    <form action="example.php" method="post">
+        <div>
+            <label for="name" class="title">Name:</label>
+            <input type="text" id="name" name="name"/>
+        </div>
+        <div>
+            <lable for="email" class="title" >Email:</lable>
+            <input type="text" id="email" email="email"/>
+        </div>
+        <div class="radio-buttons">
+            <span class="title">Gender:</span>
+            <input type="radio" name="gender " id=" male " value="M">
+            <lable for="male">M</lable>
+            <input type="radio" name="gender " id="female" value="F">
+            <lable for="female">F</lable>
+        </div>
+        <div class="submit">
+            <input type="submit" value="Register" id="submit">
+        </div>
+    </form>
+</body>
+</html>
